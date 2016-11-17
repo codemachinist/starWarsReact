@@ -1,4 +1,4 @@
-<img src="http://montanacodeschool.com/wp-content/uploads/2016/08/MCS_LOGO_v1-1.png" width="200" align="right"/>
+<!-- <img src="http://montanacodeschool.com/wp-content/uploads/2016/08/MCS_LOGO_v1-1.png" width="200" align="right"/>
 
 ##Star Wars API
 
@@ -7,12 +7,12 @@ The purpose of this day project is to introduce students to performing API reque
 
 ##Directions
 
-###Setup
-
-* Fork and clone this repository. Complete all of the following steps. When you have finished, push your code into GitHub.
-
-* Create the files necessary to build your React app. Be sure to include index.html and app.js.
-
+###Setup -->
+<!--
+* Fork and clone this repository. Complete all of the following steps. When you have finished, push your code into GitHub. -->
+<!--
+* Create the files necessary to build your React app. Be sure to include index.html and app.js. -->
+<!--
 * Starting with your index.html, be sure to call in all of the CDN's for each of the following libraries (React, React-DOM, Babel-Browser, and jQuery). We need jQuery this time, because we will be using an AJAX API request.
 
 ```
@@ -20,11 +20,11 @@ https://unpkg.com/react@15.3.1/dist/react.js
 https://unpkg.com/react-dom@15.3.1/dist/react-dom.js
 https://unpkg.com/babel-core@5.8.38/browser.min.js
 https://unpkg.com/jquery@3.1.0/dist/jquery.min.js
-```
+``` -->
 
-* Call in the app.js file as a script tag. Include an empty div within your body with an ID.
+<!-- * Call in the app.js file as a script tag. Include an empty div within your body with an ID. -->
 
-* In your app.js file, go ahead and create a Component for the Page Itself and for the List you are trying to create using the following syntax. Make sure the List falls inside the Page component as a tag.
+<!-- * In your app.js file, go ahead and create a Component for the Page Itself and for the List you are trying to create using the following syntax. Make sure the List falls inside the Page component as a tag.
 
 ```
 var StarWarsPage = React.createClass({
@@ -36,21 +36,21 @@ var StarWarsPage = React.createClass({
       </div>
     );
   }
-});
-```
+}); -->
+<!-- ```
 
 * After that go ahead and set up your ReactDOM rendering using this syntax. Remember to call the ID that you selected for you empty div on your index.html file. When you are done, test the files by opening live-server. The phrase, "This is a Star Wars Page.", should pop up if you copied the code above.
 
-```
-ReactDOM.render(
+``` -->
+<!-- ReactDOM.render(
   <StarWarsPage />,
   document.getElementById('content')
 );
-```
+``` -->
 
 ###Get the Data
 
-* Take a look at the Star Wars API docs [here](https://swapi.co) and look through all of the requirements and things you can do. I will only be going through what is necessary to display the people of Star Wars. When we are done, I would challenge you to set up some logic that runs through and allows you to display the rest of the information including the Planets, Starships, Vehicles, Films, and Species of Star Wars.
+* Take a look at the Star Wars API docs [here](https://swapi.co) and look through all of the requirements and things you can do.
 
 * The first thing we should do is setup our API request and the necessary functions to prompt that. In my application, I set it up so that if you click a button for each data set you get that specific data. You can do it this way or you can just have your app retrieve the data on page load.
 
@@ -112,10 +112,6 @@ render: function() {
 
 * The last thing that needs to be completed is to set up the Person component. Create a new component named Person and render the JSX that you would like to display for each person. If you want to use any of the set variables, use the following syntax ``{this.props.varname}``. When you are done, run live-server to verify that everything is displaying accordingly.
 
-###Final Touches
+<!-- ###Final Touches
 
-* If you have done everything correctly, you should have a fairly crude rendering of each person. If this is the case, go ahead and add some styles. Try to get all of the other things in the Star Wars API like species, vehicles, starships, etc. May the force be with you.
-
-##Copyright
-
-(c) Montana Code School, 2016.
+* If you have done everything correctly, you should have a fairly crude rendering of each person. If this is the case, go ahead and add some styles. Try to get all of the other things in the Star Wars API like species, vehicles, starships, etc. May the force be with you. -->

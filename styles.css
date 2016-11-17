@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(https://68.media.tumblr.com/b899e9b349cdb21b5fbc1bcb142f9505/tumblr_o2lmc2zmLk1u6fq9ao1_500.gif);
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    color: #fde945;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    background-color: rgba(255, 255, 255, .1);
+    margin: 0;
+    padding: 20px;
+}
+h4 {
+    color: #fde945;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+button {
+    height: 55px;
+    width: 120px;
+    padding: 20px;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, .0);
+    border: none;
+    color: #d8d1d1;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 12px;
+}
+button:hover {
+    color: #ffffff;
+    border-bottom: 5px solid #afafaf;
+}
+button:focus {
+    outline: 0;
+}
+navbar {
+    margin: 0 auto;
+    height: 55px;
+}
+ul {
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+    width: 100vw;
+    height: 55px;
+    background-color: rgba(255, 255, 255, .3);
+    justify-content: center;
+}
+li {
+    display: inline;
+    float: left;
+}
+li a {
+    display: block;
+}
+.infoContainer {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    height: 63vh;
+    width: 75vw;
+    background-color: rgba(255, 255, 255, .06);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    overflow: scroll;
+}
+.directions {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 80px;
+}
+.dataWrapper {
+    /*padding-top: 20px;*/
+    width: 355px;
+    text-align: center;
+    border: 1px solid #CCC;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, .06);
+    border-radius: 45px;
+}
+.dataWrapper:hover {
+    background-color: rgba(255, 255, 255, .09);
+}
+.dataWrapper img {
+    width: 35%;
+    height: auto;
+}
